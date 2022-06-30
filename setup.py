@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="demo-sphinx",
@@ -6,4 +6,6 @@ setup(
     install_requires=[
         "sphinx",
     ],
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
 )
