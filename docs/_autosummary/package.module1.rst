@@ -5,6 +5,12 @@ package.module1
 
    
    
+   .. rubric:: Module Attributes
+
+   .. autosummary::
+   
+      CustomTypeVariable
+   
    
 
    
@@ -13,7 +19,7 @@ package.module1
 
    .. autosummary::
    
-      example
+      function
    
    
 
@@ -28,6 +34,12 @@ package.module1
    
 
    
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      Error
    
    
 

@@ -12,7 +12,7 @@ Some words.
    :toctree: _autosummary
    :recursive:
 
-   package 
+   package
 
 
 Indices and tables
@@ -22,3 +22,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. toctree::
+   :maxdepth: 2
+
+   mathjax
+   glossary

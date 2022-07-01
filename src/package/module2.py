@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
 """
-This is a (package) module2 documentation example.
+This is a :mod:`package.module2` documentation example.
 """
 
 

@@ -17,9 +17,9 @@ sys.path.insert(0, os.path.abspath('../src'))
 
 # -- Project information -----------------------------------------------------
 
-project = "demo-sphinx"
-copyright = "2022, groundf"
-author = "groundf"
+project = "Sphinx demo"
+copyright = "2022, Jon Doe"
+author = "Jon Doe"
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,9 +28,16 @@ author = "groundf"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "sphinx.ext.todo",
     'sphinx.ext.autodoc',      # Core library for html generation from docstrings.
+    "sphinx.ext.viewcode",
     'sphinx.ext.autosummary',  # Create neat summary tables.
+    "sphinx_autodoc_typehints",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.mathjax",
 ]
+
+master_doc = 'index'
 
 autosummary_generate = True  # Turn on sphinx.ext.autosummary
 
@@ -48,10 +55,14 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme" # "alabaster" # furo
+html_theme = "sphinx_rtd_theme" 
+# html_theme = "alabaster" 
+# html_theme = "furo"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+
 

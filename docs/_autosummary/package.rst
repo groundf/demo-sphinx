@@ -30,5 +30,4 @@
    package.module1
    package.module2
    package.package1
-   package.package2
 

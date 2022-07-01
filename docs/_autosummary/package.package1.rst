@@ -28,4 +28,5 @@ package.package1
    :recursive:
 
    package.package1.module1
+   package.package1.package2
 
